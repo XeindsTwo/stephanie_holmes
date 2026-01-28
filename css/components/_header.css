@@ -1,7 +1,17 @@
-.header {
- &__inner {
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    gap: 24px;
+}
+
+.header__link {
     display: flex;
     align-items: center;
-    
- }   
+    gap: 4px;
+    padding: 12px;
 }
