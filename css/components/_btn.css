@@ -1,0 +1,12 @@
+.btn {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    align-items: center;
+    max-width: max-content;
+    border-radius: 80px;
+    border: 1px solid var(--lavender-mist);
+    padding: 10px 14px;
+    font-weight: 500;
+    color: var(--lavender-mist);
+}
