@@ -1,10 +1,10 @@
-body {
+.body {
   font-family: var(--font-montserrat);
   background-color: var(--deep-void);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
-  color: white;
+  color: var(--pure-light);
 }
 
 .container {
