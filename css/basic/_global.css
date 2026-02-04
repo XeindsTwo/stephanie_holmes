@@ -4,11 +4,16 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
-  color: var(--pure-light);
+  color: var(--lavender-mist);
 }
 
 .container {
   max-width: 1430px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+::selection {
+  background-color: var(--lavender-mist);
+  color: var(--royal-night);
 }
