@@ -1,0 +1,61 @@
+.case-study {
+    margin-bottom: 40px;
+}
+
+.case-study__inner {
+    background-image: url("../../images/bg-one.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.case-study__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    text-align: right;
+    color: var(--deep-void);
+}
+
+.case-study__subtitle {
+    margin-bottom: 16px;
+    line-height: 1;
+    display: block;
+    text-transform: uppercase;
+}
+
+.case-study__title {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.case-study__badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.case-study__badge {
+    padding: 6px 12px;
+    border: 1px solid var(--deep-void);
+    border-radius: 50px;
+}
+
+.case-study__text {
+    margin-top: auto;
+    margin-bottom: 32px;
+}
+
+.case-study__btn {
+    margin-left: auto;
+}

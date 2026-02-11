@@ -1,111 +1,197 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body class="body">
-  <header class="header">
-    <div class="container">
-      <div class="header__inner">
-        <img src="images/logo.svg" width="173" height="26" alt="" />
-        <ul class="header__list">
-          <li>
-            <a href="" class="header__link">
-              Linkedin
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M8.70711 0.649902L0.707108 8.6499M8.70711 0.649902C8.70711 0.649902 7.596 1.09435 5.37377 1.09435C3.15155 1.09435 2.04044 0.649902 2.04044 0.649902M8.70711 0.649902C8.70711 0.649902 8.26266 1.76101 8.26266 3.98324C8.26266 6.20546 8.70711 7.31657 8.70711 7.31657"
-                  stroke="#E9DEFF" stroke-linecap="square" stroke-linejoin="round" />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="header__link">
-              Twitter
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M8.70711 0.649902L0.707108 8.6499M8.70711 0.649902C8.70711 0.649902 7.596 1.09435 5.37377 1.09435C3.15155 1.09435 2.04044 0.649902 2.04044 0.649902M8.70711 0.649902C8.70711 0.649902 8.26266 1.76101 8.26266 3.98324C8.26266 6.20546 8.70711 7.31657 8.70711 7.31657"
-                  stroke="#E9DEFF" stroke-linecap="square" stroke-linejoin="round" />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="header__link">
-              Dribble
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M8.70711 0.649902L0.707108 8.6499M8.70711 0.649902C8.70711 0.649902 7.596 1.09435 5.37377 1.09435C3.15155 1.09435 2.04044 0.649902 2.04044 0.649902M8.70711 0.649902C8.70711 0.649902 8.26266 1.76101 8.26266 3.98324C8.26266 6.20546 8.70711 7.31657 8.70711 7.31657"
-                  stroke="#E9DEFF" stroke-linecap="square" stroke-linejoin="round" />
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <a class="btn" href="" target="_blank">
-          Let’s talk
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M10.7071 0.649902L0.707092 10.6499M10.7071 0.649902C10.7071 0.649902 9.3182 1.20546 6.54043 1.20546C3.76265 1.20546 2.37376 0.649902 2.37376 0.649902M10.7071 0.649902C10.7071 0.649902 10.1515 2.03879 10.1515 4.81657C10.1515 7.59435 10.7071 8.98324 10.7071 8.98324"
-              stroke="#E9DEFF" stroke-linecap="square" stroke-linejoin="round" />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="home__inner">
-        <h1 class="home__title">
-          I create <span>beautiful</span> experiences
-        </h1>
-        <p class="home__text">
-          I work with people all over the world to create tailor-made Webflow experiences
-        </p>
-        <div class="home__bottom">
-          <p class="home__subtext">Available for freelance work</p>
-          <img src="images/arrow-down.png" width="106" height="106" alt="arrow down decor">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="skills">
-    <div class="container">
-      <div class="skills__inner">
-        <div class="skills__item">
-          <h3 class="skills__subtitle">Development</h3>
-          <p class="skills__description">
-            I specialize in developing websites using Webflow, a powerful platform that allows for easy customization
-            and responsive design. I have experience building websites for a variety of industries, from small
-            businesses to large corporations. My focus is always on creating functional and smooth websites that
-            generate traffic.
-          </p>
-          <ul class="skills__badges">
-            <li class="skills__badge">Webflow</li>
-            <li class="skills__badge">Development</li>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <img src="images/logo.svg" width="173" height="26" alt="" />
+          <ul class="header__list">
+            <li>
+              <a href="" class="header__link">
+                Linkedin
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.70711 0.649902L0.707108 8.6499M8.70711 0.649902C8.70711 0.649902 7.596 1.09435 5.37377 1.09435C3.15155 1.09435 2.04044 0.649902 2.04044 0.649902M8.70711 0.649902C8.70711 0.649902 8.26266 1.76101 8.26266 3.98324C8.26266 6.20546 8.70711 7.31657 8.70711 7.31657"
+                    stroke="#E9DEFF"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="header__link">
+                Twitter
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.70711 0.649902L0.707108 8.6499M8.70711 0.649902C8.70711 0.649902 7.596 1.09435 5.37377 1.09435C3.15155 1.09435 2.04044 0.649902 2.04044 0.649902M8.70711 0.649902C8.70711 0.649902 8.26266 1.76101 8.26266 3.98324C8.26266 6.20546 8.70711 7.31657 8.70711 7.31657"
+                    stroke="#E9DEFF"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="header__link">
+                Dribble
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.70711 0.649902L0.707108 8.6499M8.70711 0.649902C8.70711 0.649902 7.596 1.09435 5.37377 1.09435C3.15155 1.09435 2.04044 0.649902 2.04044 0.649902M8.70711 0.649902C8.70711 0.649902 8.26266 1.76101 8.26266 3.98324C8.26266 6.20546 8.70711 7.31657 8.70711 7.31657"
+                    stroke="#E9DEFF"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
           </ul>
-        </div>
-        <div class="skills__item skills__item--two">
-          <h3 class="skills__subtitle">Art direction</h3>
-          <p class="skills__description">
-            Art direction is the process of bringing together all of the creative elements of a project to create a
-            cohesive and visually stunning end product. I work with clients to develop a concept and bring it to life
-            through art direction. I believe that attention to detail and a clear vision are key to creating truly
-            memorable designs.
-          </p>
-          <ul class="skills__badges">
-            <li class="skills__badge">Concept design</li>
-            <li class="skills__badge">Brand identity</li>
-          </ul>
+          <a class="btn" href="" target="_blank">
+            Let’s talk
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.7071 0.649902L0.707092 10.6499M10.7071 0.649902C10.7071 0.649902 9.3182 1.20546 6.54043 1.20546C3.76265 1.20546 2.37376 0.649902 2.37376 0.649902M10.7071 0.649902C10.7071 0.649902 10.1515 2.03879 10.1515 4.81657C10.1515 7.59435 10.7071 8.98324 10.7071 8.98324"
+                stroke="#E9DEFF"
+                stroke-linecap="square"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
         </div>
       </div>
-    </div>
-  </section>
-</body>
+    </header>
 
+    <section class="home">
+      <div class="container">
+        <div class="home__inner">
+          <h1 class="home__title">
+            I create <span>beautiful</span> experiences
+          </h1>
+          <p class="home__text">
+            I work with people all over the world to create tailor-made Webflow
+            experiences
+          </p>
+          <div class="home__bottom">
+            <p class="home__subtext">Available for freelance work</p>
+            <img
+              src="images/arrow-down.png"
+              width="106"
+              height="106"
+              alt="arrow down decor"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <div class="skills__inner">
+          <div class="skills__item">
+            <h3 class="skills__subtitle">Development</h3>
+            <p class="skills__description">
+              I specialize in developing websites using Webflow, a powerful
+              platform that allows for easy customization and responsive design.
+              I have experience building websites for a variety of industries,
+              from small businesses to large corporations. My focus is always on
+              creating functional and smooth websites that generate traffic.
+            </p>
+            <ul class="skills__badges">
+              <li class="skills__badge">Webflow</li>
+              <li class="skills__badge">Development</li>
+            </ul>
+          </div>
+          <div class="skills__item skills__item--two">
+            <h3 class="skills__subtitle">Art direction</h3>
+            <p class="skills__description">
+              Art direction is the process of bringing together all of the
+              creative elements of a project to create a cohesive and visually
+              stunning end product. I work with clients to develop a concept and
+              bring it to life through art direction. I believe that attention
+              to detail and a clear vision are key to creating truly memorable
+              designs.
+            </p>
+            <ul class="skills__badges">
+              <li class="skills__badge">Concept design</li>
+              <li class="skills__badge">Brand identity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study">
+      <div class="container">
+        <div class="case-study__inner">
+          <img
+            src="images/one.png"
+            width="660"
+            height="520"
+            alt="decor image"
+          />
+          <div class="case-study__content">
+            <span class="case-study__subtitle"> case study </span>
+            <h2 class="case-study__title">Korba</h2>
+            <ul class="case-study__badges">
+              <li class="case-study__badge">Web design</li>
+              <li class="case-study__badge">Development</li>
+            </ul>
+            <p class="case-study__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla.
+            </p>
+            <a href="" class="case-study__btn btn btn--light">
+              See case study
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.7071 0.649902L0.707092 10.6499M10.7071 0.649902C10.7071 0.649902 9.3182 1.20546 6.54043 1.20546C3.76265 1.20546 2.37376 0.649902 2.37376 0.649902M10.7071 0.649902C10.7071 0.649902 10.1515 2.03879 10.1515 4.81657C10.1515 7.59435 10.7071 8.98324 10.7071 8.98324"
+                  stroke="#0B001A"
+                  stroke-linecap="square"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
