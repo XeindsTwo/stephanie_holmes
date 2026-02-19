@@ -17,3 +17,13 @@
   background-color: var(--lavender-mist);
   color: var(--royal-night);
 }
+
+/* здесь был Сергей Аветун */ 
+.body {
+  font-family: var(--font-montserrat);
+  background-color: var(--deep-void);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--lavender-mist);
+}
